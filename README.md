@@ -1,17 +1,3 @@
-That README looks great — almost perfect! Just **one small issue** to fix: the **screenshot image paths are case-sensitive** on GitHub.
-
-You’ve written:
-
-```markdown
-![Input Form](Screenshots/screenshot1.png)
-```
-
-But your actual folder name is probably lowercase like `screenshots/`, not `Screenshots/`.
-
----
-
-### ✅ Final Copy-Paste Version (fixed paths + polished):
-
 
 # 🧪 Thyroid Cancer Prediction – Machine Learning Project
 
