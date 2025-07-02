@@ -1,54 +1,58 @@
-
 # 🧪 Thyroid Cancer Prediction – Machine Learning Project
 
-This project is a machine learning-based predictive system that helps assess the likelihood of thyroid cancer using patient medical data. It’s designed to assist early diagnosis by providing quick insights based on key health indicators.
+A predictive ML system to assess the likelihood of thyroid cancer using patient medical data. Designed to support early diagnosis with a clean, user-friendly interface.
 
 ---
 
 ## 💻 What It Does
-- Predicts the risk of thyroid cancer based on user inputs
-- Uses a Random Forest model for high accuracy
-- Features an interactive web interface built with **Streamlit**
+- Predicts thyroid cancer risk based on user input
+- Built with an **XGBoost model (80.4% accuracy, 91% precision on positives)**
+- Interactive web interface using **Streamlit**
 
 ---
 
 ## 🛠️ Tech Stack
 - Python  
 - Pandas, NumPy  
-- Scikit-learn  
+- Scikit-learn, XGBoost  
 - Streamlit  
 - Matplotlib & Seaborn (for EDA)
 
 ---
 
 ## 📊 Workflow
-1. **Data Cleaning**: Removed nulls, handled outliers, and encoded categorical features  
-2. **EDA**: Explored feature relationships and class imbalance  
-3. **Modeling**: Tested Logistic Regression, SVM, Decision Trees, and Random Forest  
-4. **Deployment**: Built a real-time prediction interface with Streamlit
+1. **Data Cleaning**: Removed nulls, handled outliers, encoded features  
+2. **EDA**: Analyzed distributions, feature relationships  
+3. **Modeling**: Compared multiple classifiers; XGBoost performed best  
+4. **Deployment**: Live prediction via Streamlit interface
 
 ---
 
 ## 🔍 Key Features
-- User-friendly form for inputting patient symptoms/data  
-- Real-time prediction with probability score  
-- Medical-friendly language for clear interpretation
+- Real-time risk prediction with clear feedback  
+- Simple form UI for symptom input  
+- Interpretable results, medical-friendly messaging
 
 ---
 
 ## 📁 Project Files
-- `thyroid_predictor.py`: main Streamlit app  
-- `model.pkl`: trained model  
-- `dataset.csv`: cleaned dataset  
-- `notebook.ipynb`: training and evaluation steps  
-- `screenshot.png`: interface preview (optional)
+- `thyroid_predictor.py`: Streamlit app  
+- `model.pkl`: Trained XGBoost model  
+- `dataset.csv`: Cleaned dataset  
+- `notebook.ipynb`: Model training + evaluation  
+- `screenshots/`: UI preview images
 
 ---
 
-## 🔗 Access Project Folder  
-📂 [Google Drive Folder](https://drive.google.com/your-link-here)
+## 🖼️ App Preview
+
+### 🔹 Input Form
+![Input Form](screenshots/screenshot1.png)
+
+### 🔹 Prediction Result
+![Prediction Result](screenshots/screenshot2.png)
 
 ---
 
-## 📅 Date
+## 📅 Date  
 March 2025
