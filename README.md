@@ -53,6 +53,13 @@ A predictive ML system to assess the likelihood of thyroid cancer using patient 
 ![Prediction Result](screenshots/screenshot2.png)
 
 ---
+## 📄 Project Report
+
+For a detailed explanation of data processing, modeling, and deployment:
+
+👉 [Read Full Report (PDF)](./Thyroid_Cancer_Prediction_Report.pdf)
+
+---
 
 ## 📅 Date  
 March 2025
