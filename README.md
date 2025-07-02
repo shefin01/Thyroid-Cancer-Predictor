@@ -47,10 +47,10 @@ A predictive ML system to assess the likelihood of thyroid cancer using patient 
 ## 🖼️ App Preview
 
 ### 🔹 Input Form
-![Input Form](screenshots/screenshot1.png)
+![Input Form](Screenshots/screenshot1.png)
 
 ### 🔹 Prediction Result
-![Prediction Result](screenshots/screenshot2.png)
+![Prediction Result](Screenshots/screenshot2.png)
 
 ---
 ## 📄 Project Report
